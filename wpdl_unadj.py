@@ -2,7 +2,7 @@ import sys
 import subprocess
 import os
 import argparse
-from wplib.utils.convenience_functions import download_country_covariates as dl
+from wpgpDownload.utils.convenience_functions import download_country_covariates as dl
 from total_population_dict import total_pop_dict
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
